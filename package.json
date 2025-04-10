@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3"
+  }
+}
