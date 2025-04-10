@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
-  const toggleTheme = () => {
-    setDarkMode(!darkMode);
-    document.body.classList.toggle('dark-mode');
-  };
-
   return (
-    <div className={`App ${darkMode ? 'dark-mode' : ''}`}>
-      <button className="theme-toggle" onClick={toggleTheme}>
-        {darkMode ? '☀️' : '🌙'}
-      </button>
+    <div className="App">
       <header className="App-header">
-        <h1>Welcome to OctoFit Tracker</h1>
-        <p>Track your fitness activities and stay healthy!</p>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );

@@ -11,7 +11,9 @@ Typically, you would review your notes and commit messages then summarize them f
 
 #### Copilot Review
 
-More eyes on our work is always useful so let's ask Copilot to do a first pass before we do a normal peer review process. Copilot is great at catching common mistakes that can be fixed by simple adjustment, but please remember to use it responsibly.
+Copilot Review leverages AI to analyze your pull request and provide suggestions or comments on potential improvements. It can identify common issues, such as missing documentation, inconsistent formatting, or potential bugs, and suggest fixes. This feature is designed to complement human reviews by catching straightforward issues early, saving time during the review process.
+
+More eyes on our work is always useful, so let's ask Copilot to do a first pass before we proceed with a normal peer review process. Copilot Review can help identify common mistakes, such as missing documentation, inconsistent formatting, or potential bugs, and suggest straightforward fixes. This ensures that the code is in better shape before a human reviewer takes over. However, always use it responsibly and as a complement to human reviews.
 
 > [!NOTE]  
 > This is in **Public Preview** for organizations. [[docs]](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review)
