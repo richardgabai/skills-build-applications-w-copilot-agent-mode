@@ -17,7 +17,7 @@ def api_root(request):
     return JsonResponse(
         {
             "message": "Welcome to the Octofit API!",
-            "url": "https://supreme-space-waffle-vqgq7jg64pjh6g9v-8000.app.github.dev",
+            "url": "https://upgraded-invention-wg9gjq9rj4p2jx5-8000.app.github.dev",
         }
     )
 
